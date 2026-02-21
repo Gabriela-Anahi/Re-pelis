@@ -1,0 +1,26 @@
+:root {
+  --blue: #3C4F76;
+  --dark: #121212;
+  --light: #F5F5F5;
+  --rose: #7D5C65;
+  --lavender: #736B92;
+  --blue: #7C90DB;
+  --pink: #E5BEED;
+  --purple: #9593D9;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+#root {
+  background-color: var(--blue);
+}
+
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+ul {
+  margin-bottom: 0 !important;
+}

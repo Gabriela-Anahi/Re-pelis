@@ -1,0 +1,47 @@
+.nav {
+  background-color: var(--purple);
+}
+.nav > div {
+  display: flex;
+  gap: 10px;
+  height: 20px;
+  padding: 20px;
+  align-items: center;
+}
+.nav > div a {
+  color: var(--dark);
+  text-decoration: none;
+  font-weight: 700px;
+  _hover{ color: var(--rose); }
+}
+
+.nav > div a:hover {
+  color: var(--rose);
+}
+
+.footer {
+  align-items: center; 
+  background-color: var(--purple); 
+  display: flex; 
+  height: 100px; 
+  justify-content: space-around;
+}
+
+.footer ul {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer a {
+  color: var(--dark);
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer-link {
+  color: var(--dark);
+  text-decoration: none;
+}

@@ -1,0 +1,16 @@
+.movie-card{
+    cursor: pointer;
+}
+
+/* Card con esquinas redondeadas */
+.movie-card .card{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Asegura que la imagen superior también tenga las esquinas redondeadas */
+.movie-card .card-img-top{
+    display: block;
+    width: 100%;
+    height: auto;
+}
